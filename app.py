@@ -12,8 +12,8 @@ st.markdown('this predict sales')
 
 
 # data loading
-model_path=r'C:\Users\DAVID\Career_Accelerator_LP4_ML-Appl\ml_models\streamlit project\saved_ml.joblib'
-model= joblib.load(model_path)
+#model_path=r'C:\Users\DAVID\Career_Accelerator_LP4_ML-Appl\ml_models\streamlit project\saved_ml.joblib'
+model= joblib.load('saved_ml.joblib')
 
 #test= pd.read_csv('dataset_streamlit/test.csv',usecols=['ds','onpromotion','transactions'])
 #test.head()
