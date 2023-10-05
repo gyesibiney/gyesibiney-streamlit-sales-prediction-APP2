@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import date
 import numpy as np
 import pandas as pd
-from prophet.plot import plot_plotly,plot_components
+#from prophet.plot import plot_plotly,plot_components
 import joblib
 
 # web page 
@@ -15,16 +15,7 @@ st.markdown('this predict sales')
 #model_path=r'C:\Users\DAVID\Career_Accelerator_LP4_ML-Appl\ml_models\streamlit project\saved_ml.joblib'
 model= joblib.load('saved_ml.joblib')
 
-#test= pd.read_csv('dataset_streamlit/test.csv',usecols=['ds','onpromotion','transactions'])
-#test.head()
 
-
-#df= pd.read_csv('dataset_streamlit/original_dataframe.csv')
-#df=df.set_index('date')
-
-# visualizing the daily sales
-#st.subheader('plot of daily sales of Favorita Stores')
-#st.line_chart(df['sales'])
 
 # inputs
 st.header('make a forecast here:')
