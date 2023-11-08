@@ -14,7 +14,6 @@ st.markdown('this predict sales')
 model= joblib.load('saved_ml.joblib')
 
 
-
 # inputs
 st.header('make a forecast here:')
 ds= st.date_input(label='Please enter your forecast date')
