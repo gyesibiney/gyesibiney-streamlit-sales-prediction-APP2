@@ -9,7 +9,6 @@ import joblib
 st.title('Favorita Store Sales Prediction APP with Facebook Prophet')
 st.markdown('this predict sales')
 
-
 # data loading
 model= joblib.load('saved_ml.joblib')
 
